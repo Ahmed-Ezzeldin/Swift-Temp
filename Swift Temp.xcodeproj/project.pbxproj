@@ -94,6 +94,9 @@
 		BECC2F40284B8CAA006C4280 /* Swift Temp */ = {
 			isa = PBXGroup;
 			children = (
+				BECC2F6E284B8DE4006C4280 /* ModelView */,
+				BECC2F6D284B8DD8006C4280 /* View */,
+				BECC2F6C284B8DCF006C4280 /* Model */,
 				BECC2F41284B8CAA006C4280 /* Swift_TempApp.swift */,
 				BECC2F43284B8CAA006C4280 /* ContentView.swift */,
 				BECC2F45284B8CAB006C4280 /* Assets.xcassets */,
@@ -125,6 +128,75 @@
 				BECC2F5E284B8CAB006C4280 /* Swift_TempUITestsLaunchTests.swift */,
 			);
 			path = "Swift TempUITests";
+			sourceTree = "<group>";
+		};
+		BECC2F6B284B8DC3006C4280 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BECC2F6C284B8DCF006C4280 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BECC2F73284B8EFC006C4280 /* Services */,
+				BECC2F70284B8E4B006C4280 /* Models */,
+				BECC2F6F284B8E3B006C4280 /* Helpers */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BECC2F6D284B8DD8006C4280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BECC2F71284B8E69006C4280 /* Styles */,
+				BECC2F72284B8E98006C4280 /* Views */,
+				BECC2F6B284B8DC3006C4280 /* Screens */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BECC2F6E284B8DE4006C4280 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		BECC2F6F284B8E3B006C4280 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BECC2F70284B8E4B006C4280 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BECC2F71284B8E69006C4280 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		BECC2F72284B8E98006C4280 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BECC2F73284B8EFC006C4280 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
