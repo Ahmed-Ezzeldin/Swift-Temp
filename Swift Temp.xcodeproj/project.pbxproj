@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BECC2F42284B8CAA006C4280 /* Swift_TempApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC2F41284B8CAA006C4280 /* Swift_TempApp.swift */; };
-		BECC2F44284B8CAA006C4280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC2F43284B8CAA006C4280 /* ContentView.swift */; };
 		BECC2F46284B8CAB006C4280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECC2F45284B8CAB006C4280 /* Assets.xcassets */; };
 		BECC2F49284B8CAB006C4280 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECC2F48284B8CAB006C4280 /* Preview Assets.xcassets */; };
 		BECC2F53284B8CAB006C4280 /* Swift_TempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC2F52284B8CAB006C4280 /* Swift_TempTests.swift */; };
 		BECC2F5D284B8CAB006C4280 /* Swift_TempUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC2F5C284B8CAB006C4280 /* Swift_TempUITests.swift */; };
 		BECC2F5F284B8CAB006C4280 /* Swift_TempUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC2F5E284B8CAB006C4280 /* Swift_TempUITestsLaunchTests.swift */; };
+		BECC2F76284B93F7006C4280 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC2F75284B93F7006C4280 /* HomeScreen.swift */; };
+		BECC2F78284B97E9006C4280 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC2F77284B97E9006C4280 /* CustomButton.swift */; };
+		BECC2F7A284B9C24006C4280 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC2F79284B9C24006C4280 /* ButtonStyles.swift */; };
+		BECC2F7C284BA43D006C4280 /* ButtonsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC2F7B284BA43D006C4280 /* ButtonsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		BECC2F3E284B8CAA006C4280 /* Swift Temp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Temp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECC2F41284B8CAA006C4280 /* Swift_TempApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TempApp.swift; sourceTree = "<group>"; };
-		BECC2F43284B8CAA006C4280 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BECC2F45284B8CAB006C4280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BECC2F48284B8CAB006C4280 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BECC2F4E284B8CAB006C4280 /* Swift TempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift TempTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,11 @@
 		BECC2F58284B8CAB006C4280 /* Swift TempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift TempUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECC2F5C284B8CAB006C4280 /* Swift_TempUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TempUITests.swift; sourceTree = "<group>"; };
 		BECC2F5E284B8CAB006C4280 /* Swift_TempUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TempUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BECC2F74284B9312006C4280 /* Swift-Temp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Swift-Temp-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BECC2F75284B93F7006C4280 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		BECC2F77284B97E9006C4280 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		BECC2F79284B9C24006C4280 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		BECC2F7B284BA43D006C4280 /* ButtonsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +101,11 @@
 		BECC2F40284B8CAA006C4280 /* Swift Temp */ = {
 			isa = PBXGroup;
 			children = (
+				BECC2F74284B9312006C4280 /* Swift-Temp-Info.plist */,
 				BECC2F6E284B8DE4006C4280 /* ModelView */,
 				BECC2F6D284B8DD8006C4280 /* View */,
 				BECC2F6C284B8DCF006C4280 /* Model */,
 				BECC2F41284B8CAA006C4280 /* Swift_TempApp.swift */,
-				BECC2F43284B8CAA006C4280 /* ContentView.swift */,
 				BECC2F45284B8CAB006C4280 /* Assets.xcassets */,
 				BECC2F47284B8CAB006C4280 /* Preview Content */,
 			);
@@ -133,6 +140,8 @@
 		BECC2F6B284B8DC3006C4280 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				BECC2F75284B93F7006C4280 /* HomeScreen.swift */,
+				BECC2F7B284BA43D006C4280 /* ButtonsScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -181,6 +190,7 @@
 		BECC2F71284B8E69006C4280 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				BECC2F79284B9C24006C4280 /* ButtonStyles.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -188,6 +198,7 @@
 		BECC2F72284B8E98006C4280 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BECC2F77284B97E9006C4280 /* CustomButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -329,8 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BECC2F44284B8CAA006C4280 /* ContentView.swift in Sources */,
+				BECC2F76284B93F7006C4280 /* HomeScreen.swift in Sources */,
+				BECC2F7A284B9C24006C4280 /* ButtonStyles.swift in Sources */,
 				BECC2F42284B8CAA006C4280 /* Swift_TempApp.swift in Sources */,
+				BECC2F7C284BA43D006C4280 /* ButtonsScreen.swift in Sources */,
+				BECC2F78284B97E9006C4280 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,9 +506,9 @@
 				DEVELOPMENT_TEAM = 32V376GWJH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-Temp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -521,9 +535,9 @@
 				DEVELOPMENT_TEAM = 32V376GWJH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Swift-Temp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
