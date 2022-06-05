@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE26C63D284D282E00D062E7 /* SplachScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26C63C284D282E00D062E7 /* SplachScreen.swift */; };
 		BECC2F42284B8CAA006C4280 /* Swift_TempApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECC2F41284B8CAA006C4280 /* Swift_TempApp.swift */; };
 		BECC2F46284B8CAB006C4280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECC2F45284B8CAB006C4280 /* Assets.xcassets */; };
 		BECC2F49284B8CAB006C4280 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECC2F48284B8CAB006C4280 /* Preview Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE26C63C284D282E00D062E7 /* SplachScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplachScreen.swift; sourceTree = "<group>"; };
 		BECC2F3E284B8CAA006C4280 /* Swift Temp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Temp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECC2F41284B8CAA006C4280 /* Swift_TempApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TempApp.swift; sourceTree = "<group>"; };
 		BECC2F45284B8CAB006C4280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			children = (
 				BECC2F75284B93F7006C4280 /* HomeScreen.swift */,
 				BECC2F7B284BA43D006C4280 /* ButtonsScreen.swift */,
+				BE26C63C284D282E00D062E7 /* SplachScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE26C63D284D282E00D062E7 /* SplachScreen.swift in Sources */,
 				BECC2F76284B93F7006C4280 /* HomeScreen.swift in Sources */,
 				BECC2F7A284B9C24006C4280 /* ButtonStyles.swift in Sources */,
 				BECC2F42284B8CAA006C4280 /* Swift_TempApp.swift in Sources */,
